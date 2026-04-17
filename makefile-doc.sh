@@ -31,7 +31,7 @@ for path_uniq in $(echo "${paths[*]}" | tr ' ' '\n' | sort -u); do
     continue
   fi
 
-  START_LINE="\`\`\`mono\n\$ make help \n"
+  START_LINE="\`\`\`mono\n\$ make help\n"
   END_LINE="\n\`\`\`"
 
   # Remove color codes and add make help output to temp file
